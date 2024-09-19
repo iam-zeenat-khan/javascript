@@ -1,0 +1,36 @@
+let score = "33"
+console.log (typeof(score));
+let valueSInNumber = Number(score);
+console.log(typeof valueSInNumber);
+console.log(valueSInNumber)
+//"33" => 33
+//"33abc" =>NAN
+//true =>1; false =>0
+
+let isloggedIn ="hitesh";
+let booleanIsLoggedIn = Boolean (isloggedIn);
+console.log(booleanIsLoggedIn);
+//*********************************operation*************** */
+
+let value = 3
+let negvalue = -value
+//console.log(negvalue);
+
+/*console.log(2+2)
+console.log(2-2)
+console.log(2*2)
+console.log(2**3);
+*/
+
+/*let str1 ="hello"
+let str2 = " zee"
+let str3 = str1+ str2;
+console.log ("1" + 2);
+console.log(2+"1")
+console.log("1" + 2 +2);
+console.log(1+2+"2");*/
+
+console.log(true);
+
+let gamecounter = 100
+++gamecounter
