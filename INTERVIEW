@@ -1,0 +1,29 @@
+Javascript Excution Context
+run in two phase
+{}--->global Excution Context<<<--------this ki value in browser is window
+it will excute in single thread
+---> Global excution context
+----> Function(functional ) excution context
+---->Eval Excution context
+
+1 --> Global Excution --->this
+2---> Memory Phase
+val1 undefined
+val2 undefined
+addno -> defination
+result1 -> undefined
+result2 -> undefined
+
+3---> Excution phase
+val1 -->10
+val2 -->5
+addnum------------>[ new virable Environment +Excution Thread]  
+ ------>Memory Phase
+val1- undefined
+val2- undefined
+total-->undefined
+------->Excution Context
+num1 ->10
+num2 ->5
+total-->15  
+ after done it get deleted
